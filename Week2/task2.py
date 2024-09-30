@@ -1,3 +1,9 @@
+"""
+leetcode.com/problem-list/string/
+url: https://leetcode.com/problems/count-and-say/
+"""
+
+
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
