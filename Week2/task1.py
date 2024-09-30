@@ -1,3 +1,8 @@
+"""
+leetcode.com/problem-list/string/
+url: https://leetcode.com/problems/generate-parentheses/
+"""
+
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def backtrack(current: str, open_count: int, close_count: int):
