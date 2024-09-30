@@ -1,3 +1,9 @@
+"""
+leetcode.com/problem-list/string/
+url: https://leetcode.com/problems/word-break/
+"""
+
+
 class Solution:
     def wordBreak(self, s: str, wordDict: list[str]) -> bool:
         word_set = set(wordDict)
