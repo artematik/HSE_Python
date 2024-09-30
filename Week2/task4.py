@@ -1,3 +1,9 @@
+"""
+leetcode.com/problem-list/string/
+url: https://leetcode.com/problems/word-search/
+"""
+
+
 class Solution:
     def exist(self, board: list[list[str]], word: str) -> bool:
         if not board or not board[0]:
